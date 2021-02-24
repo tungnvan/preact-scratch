@@ -17,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.17",
     "@babel/preset-env": "^7.13.5",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "core-js": "^3.9.0",
+    "preact": "^10.5.12",
     "regenerator-runtime": "^0.13.7"
   }
 }

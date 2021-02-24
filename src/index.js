@@ -1,4 +1,4 @@
-import {add, mult} from './utils/test';
+import {h, render} from 'preact';
+import {App} from './pages/app';
 
-console.log(add(1, 2));
-console.log(mult(4, 2));
+render(<App />, document.getElementById('root'));
